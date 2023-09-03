@@ -26,7 +26,7 @@ export default class State extends Component {
     return (
       <div>
         <hi> Counter {this.state.count} </hi>
-        <br />
+        <br />   <br />   <br />
         
         <button onClick={abc}> Add</button>
         <button onClick={minus}> Minus</button>
