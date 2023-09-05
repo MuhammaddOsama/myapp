@@ -1,12 +1,13 @@
 import React, { component } from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import State from './Component/State'
+//import State from './Component/State'
+import Form from './Component/Form'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- <State />
+ <Form />
   </React.StrictMode>
 );
 
